@@ -35,8 +35,6 @@ namespace SimpleBudgetManager
         {
             Utils.RefreshDialog.Progress = 95;
             ((Activity)Utils.CurrentContext).Recreate();
-            //Intent toActionsLog = new Intent(Utils.CurrentContext, typeof(LogsTabsActivity));
-            //Utils.CurrentContext.StartActivity(toActionsLog);
             Utils.RefreshDialog.Dismiss();
             base.OnDestroy();
         }
