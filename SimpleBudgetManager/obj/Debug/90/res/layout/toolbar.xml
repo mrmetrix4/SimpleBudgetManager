@@ -1,0 +1,2 @@
+
+  <Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:popupTheme="@style/AppTheme" android:minHeight="?android:attr/actionBarSize" android:background="@color/colorPrimary" android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar" xmlns:android="http://schemas.android.com/apk/res/android"></Toolbar>
